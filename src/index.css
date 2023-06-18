@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #e0e0e0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.search-container {
+  width: 30%;
+  height: 5vh;
+
+  margin: 1rem;
+  padding: 0.3rem;
+  border-radius: 8px;
+}
+.search {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search input {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 2px 2px 5px gray;
+  padding: 5px;
+  outline: none;
+  font-weight: 600;
+  font-size: 15px;
+
+  color: rgb(55, 55, 55);
+}
+.search-btn {
+  width: 30%;
+  height: 35px;
+  background: #0b9747;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 200ms linear;
+  box-shadow: 2px 2px 4px rgb(59, 59, 59);
+}
+.search-btn:hover{
+  background: #04813a;
+}
+.pagin-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 32%;
+  height: 100%;
+}
+.btn {
+  width: 30%;
+  height: 35px;
+  margin: 1rem;
+  background: #0459d1;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 200ms linear;
+  box-shadow: 2px 2px 4px rgb(55, 55, 55);
+}
+.pagin-btn-clecked {
+  width: 30%;
+  height: 35px;
+  margin: 1rem;
+  background: #060fc6;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 200ms linear;
+  box-shadow: 2px 2px 4px rgb(55, 55, 55);
+}
+.pagin-container button:hover {
+  background: #060fc6;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 22%;
+  background: #ffffffaa;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px gray;
+  padding: 3px;
+  margin: 1rem;
+  transition: all 200ms linear;
+}
+.img-container img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 30%;
+  border-radius: 8px;
+  background: #ededed31;
+  object-fit: fill;
+}
+
